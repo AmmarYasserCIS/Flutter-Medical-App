@@ -24,6 +24,8 @@ dependencies:
   easy_localization: ^3.0.0
   flutter_native_splash: ^2.3.5
   shared_preferences: ^2.0.0
+  flutter_svg: ^2.0.9
+  flutter_screenutil: ^5.9.0
 
 dev_dependencies:
   flutter_test:
