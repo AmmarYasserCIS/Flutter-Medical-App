@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicalapp/core/routing/routes.dart';
-import 'package:medicalapp/features/login/ui/widgets/login_screen.dart';
+import 'package:medicalapp/features/login/ui/login_screen.dart';
 
 import '../../features/onboarding/onboarding_screen.dart';
 
