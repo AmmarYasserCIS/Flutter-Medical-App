@@ -5,6 +5,7 @@ import 'package:medicalapp/core/routing/routes.dart';
 import 'package:medicalapp/features/login/data/cubit/login_cubit.dart';
 import 'package:medicalapp/features/login/ui/login_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../features/home/ui/home_screen.dart';
 import '../../features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
@@ -19,6 +20,10 @@ class AppRouter {
           builder: (_) =>  BlocProvider(create: (context) =>
             getIt<LoginCubit>()
           , child: const LoginScreen()),
+        );
+      case Routes.homeScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
         );
       default:
         return MaterialPageRoute(
